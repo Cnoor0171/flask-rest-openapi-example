@@ -1,0 +1,26 @@
+[MESSAGES CONTROL]
+disable=
+    # Formatter territory
+    line-too-long,
+    # Logging
+    logging-fstring-interpolation,
+    # Not usefule
+    too-many-arguments,
+    too-few-public-methods,
+    no-self-use,
+    # Not usefule with pytest
+    missing-function-docstring,
+    missing-method-docstring,
+    missing-class-docstring,
+    missing-module-docstring
+
+[BASIC]
+good-names=
+    i,
+    j,
+    k,
+    ex,
+    Run,
+    _,
+    bp,
+    id

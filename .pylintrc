@@ -1,0 +1,21 @@
+[MESSAGES CONTROL]
+disable=
+    # Formatter territory
+    line-too-long,
+    # Logging
+    logging-fstring-interpolation,
+    # Not usefule
+    too-many-arguments,
+    too-few-public-methods,
+    no-self-use
+
+[BASIC]
+good-names=
+    i,
+    j,
+    k,
+    ex,
+    Run,
+    _,
+    bp,
+    id

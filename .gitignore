@@ -1,0 +1,17 @@
+# python
+__pycache__
+.venv
+.mypy_cache
+.pytest_cache
+*.egg-info
+
+# Secrets
+certs/certificate.pem
+certs/private-key.pem
+.env
+
+# Logs
+logs
+
+# IDE
+.vscode
